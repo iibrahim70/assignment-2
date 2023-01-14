@@ -1,13 +1,16 @@
 /* Work sans font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
-/* Universal declaration */
+/* Universal and body declaration */
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   font-family: 'Work Sans', sans-serif;
+}
+body img{
+  width: 100%;
 }
 
 /* Css Custom Variables */
@@ -49,7 +52,6 @@
 
 /* Banner styles */
 .banner-container{
-  /* height: 1200px; */
   background-color: var(--color-primary);
 }
 .banner-items{
@@ -78,12 +80,49 @@
   color: var(--font-color-four);
 }
 .banner-cover{
-  text-align: center;
-  padding: 50px 200px; 
+  margin: 0 auto;
+  width: 900px;
+  padding: 50px 0; 
 }
-.banner-cover img{
-  width: 100%;
+
+/* Quick list styles */
+.quick-list-container{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
+.quick-list-container .left-side{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.quick-list-title{
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.title-one{
+  color: var(--font-color-three);
+}
+.title-two{
+  color: var(--font-color-one);
+}
+.title-three{
+  color: var(--font-color-);
+}
+.quick-list-description{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: var(--font-color-three);
+}
+
+
+
 
 
 
