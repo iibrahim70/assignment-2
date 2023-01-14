@@ -17,6 +17,7 @@
   --font-color-one: #131313;
   --font-color-two:  #424242;
   --font-color-three:  #727272;
+  --font-color-four:  #FFFFFF;
   --font-color-: #FF900E;
   --button-color: #FF900E;
 }
@@ -27,10 +28,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 20px;
 }
 .left-side{
   font-weight: 700;
-  font-size: 45px;
+  font-size: 30px;
   color: var(--font-color-one);
 }
 .right-side{
@@ -47,12 +49,42 @@
 
 /* Banner styles */
 .banner-container{
-  height: 1200px;
-  background-color: var(--font-color-);
+  /* height: 1200px; */
+  background-color: var(--color-primary);
 }
 .banner-items{
   text-align: center;
 }
 .banner-title{
-
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--font-color-one);
+  padding: 80px 300px 30px;
 }
+.banner-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color-three);
+  padding: 0 300px 30px;
+}
+.btn-primary{
+  width: 180px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--button-color);
+  color: var(--font-color-four);
+}
+.banner-cover{
+  text-align: center;
+  padding: 50px 200px; 
+}
+.banner-cover img{
+  width: 100%;
+}
+
+
+
+
