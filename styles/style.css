@@ -1,0 +1,58 @@
+/* Work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Universal declaration */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Css Custom Variables */
+:root{
+  --color-primary: #FF900E1A;
+  --color-secondary: #FFF4E7;
+  --font-color-one: #131313;
+  --font-color-two:  #424242;
+  --font-color-three:  #727272;
+  --font-color-: #FF900E;
+  --button-color: #FF900E;
+}
+
+/* Header and nav styles */
+.header-container{
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-side{
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--font-color-one);
+}
+.right-side{
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-items{
+  display: flex;
+  gap: 50px;
+}
+.right-side a{
+  color: var(--font-color-two);
+}
+
+/* Banner styles */
+.banner-container{
+  height: 1200px;
+  background-color: var(--font-color-);
+}
+.banner-items{
+  text-align: center;
+}
+.banner-title{
+
+}
