@@ -250,6 +250,36 @@ body img{
   filter: brightness(0);
 }
 
+/* Subscribe styles */
+.subscribe-container{
+  margin: 50px 0;
+}
+.subscribe-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: var(--font-color-one);
+}
+.subscribe-description{
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color-three);
+  width: 500px;
+  margin-bottom: 20px;
+}
+.subscribe-form{
+  text-align: center;
+}
+.email-btn{
+  width: 300px;
+  height: 55px;
+  border: none;
+  border-bottom: 2px solid var(--font-color-two);
+}
+
 /* Footer styles */
 .footer-container{
   width: 1000px;
