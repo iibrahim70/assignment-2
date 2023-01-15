@@ -223,12 +223,19 @@ body img{
   justify-content: space-evenly;
 }
 .somefact-container .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.somefact-container .card{
   border: 1px solid var(--button-color);
   border-radius: 8px;
+  width: 200px;
+  height: 200px;
 }
 .somefact-container .card img{
-  width: 45px;
-  padding: 25px 75px 5px;
+  width: 40px;
 }
 .somefact-container .card-title{
   font-weight: 600;
