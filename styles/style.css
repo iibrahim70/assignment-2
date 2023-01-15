@@ -313,7 +313,6 @@ body img{
   border: none;
   border-bottom: 2px solid var(--font-color-two);
 }
-
 /* Footer styles */
 .footer-container{
   width: 900px;
@@ -329,4 +328,67 @@ body img{
   font-size: 20px;
   color: var(--font-color-two);
 }
+
+/* Media queri for mobile devices */
+@media only screen and (max-width: 576px){
+  .header-container, .banner-container, .quick-list-container, 
+  .feature-container, .feature-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-title{
+    font-size: 40px;
+    padding: 30px;
+  }
+  .nav-items{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .banner-description{
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .banner-cover{
+    width: 80%;
+  }
+  .quick-list-container{
+    width: 100%;
+    margin: 50px 0;
+    padding: 0;
+  }
+  .quick-list-container .left-side, .quick-list-container .right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quick-list-title, .quick-list-description{
+    text-align: center;
+  }
+  .feature-items{
+    width: 100%;
+  }
+  .feature-title{
+    font-size: 20px;
+  }
+  .feature-description{
+    font-size: 8px;
+  }
+  .feature-items .card{
+    height: 220px;
+    margin-bottom: 20px;
+  }
+  .btn-two{
+    position: static;
+  }
+  .subscribe-container, .footer-container, .sponsor-container, .somefact-container{
+    width: 100%;
+  }
+}
+
 
